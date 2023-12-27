@@ -1,0 +1,55 @@
+{% extends 'blog/base.html' %}
+<style>
+#img {width: 100px; cursor:pointer;}
+#img:focus {width: 1200;}
+</style>
+
+{% block title %}
+   {{ title }}
+{% endblock %}
+
+{% block content %}
+        <div class="alert alert-light">
+          <h2 class="text-center">{{ title }}</h2>
+          <div class="items-leading clearfix">
+              <img class="mt-3 pr-3 pb-3 float-left col-3" src="{{ post.img.url }}"/>
+              <p class="tab mt-3">{{ post.text }}</p>
+              <p class="tab">Роль в проекте: {{ post.role }}</p>
+          </div>
+          <div class="p-3 mb-2 bg-warning bg-gradient text-dark">
+            <strong>Внимание:</strong> документация является собственностью работодателя. Поэтому примеры работ
+              представлены в упрощенном виде и носят исключительно ознакомительный характер.
+          </div>
+
+          <div>
+
+
+            <table cellpadding="8px"
+            </tr>
+                <td class="text-center"><a  target="_blank" href="{{ post.img1.url }}"><img class="col-8"  src="{{ post.img1.url }}"></a></td>
+                <td class="text-center"><a  target="_blank" href="{{ post.img2.url }}"><img class="col-8"  src="{{ post.img2.url }}"></a></td>
+            </tr>
+            </tr>
+                <td class="text-center"><a  target="_blank" href="{{ post.img3.url }}"><img class="col-8"  src="{{ post.img3.url }}"></a></td>
+                <td class="text-center"><a  target="_blank" href="{{ post.img4.url }}"><img class="col-8"  src="{{ post.img4.url }}"></a></td>
+            </tr>
+
+
+              </table>
+           </div>
+
+        </div>
+
+
+
+
+          </div>
+          {% if object.author == user %}
+            <hr>
+            <a href="{% url 'project-update' object.id %}" class="btn btn-info">Обновить проетк</a>
+            <a href="{% url 'project-delete' object.id %}" class="btn btn-danger">Удалить проект</a>
+          {% endif %}
+        </div>
+
+{% endblock %}
+

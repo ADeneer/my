@@ -1,0 +1,50 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+
+    {% for post in project %}
+
+        <div class="row g-0 bg-body-tertiary position-relative">
+          <div class="col-md-5 mb-md-0 p-md-4">
+            <img
+              src="{{ post.img.url }}"
+              class="col-8"
+              alt="{{ post.title }}"
+            />
+          </div>
+          <div class="col-md-6 p-4 ps-md-0">
+            <h2 class="media text-muted pt-3">{{ post.title }}</h2>
+            <a href="{% url 'project-detail' post.id %}" class="stretched-link">Подробнее</a>
+          </div>
+        </div>
+
+    {% endfor %}
+
+    {% if is_paginated %}
+        {% if page_obj.has_previous %}
+            <a href="{% url 'home' %}" class="btn btn-outline-danger">Начало</a>
+            <a href="?page={{ page_obj.previous_page_number }}" class="btn btn-outline-danger">Предыдущая</a>
+        {% endif %}
+
+        {% for num in page_obj.paginator.page_range %}
+            {% if num == page_obj.number %}
+                 <button class="btn btn-danger">{{ num }}</button>
+            {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                 <a href="?page={{ num }}" class="btn btn-outline-danger">{{ num }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}" class="btn btn-outline-danger">Следующая</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}" class="btn btn-outline-danger">Последняя</a>
+        {% endif %}
+    {% endif %}
+
+
+{% endblock %}
+
+

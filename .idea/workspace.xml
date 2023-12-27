@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="37f26411-7041-4b22-9456-98f5ad8b8c3e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2YccfqXvBpFqt6qXTbU122GWJGE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/PycharmProjects/my/.git&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\PycharmProjects\my\pictures\project" />
+      <recent name="C:\Users\Alex\PycharmProjects\my\pictures\user_images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\PycharmProjects\my\pictures" />
+      <recent name="C:\Users\Alex\PycharmProjects\my\pictures\user_images" />
+      <recent name="C:\Users\Alex\PycharmProjects\my\blog" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="my" type="Python.DjangoServer" factoryName="Django server">
+      <module name="my" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37f26411-7041-4b22-9456-98f5ad8b8c3e" name="Changes" comment="" />
+      <created>1700828415250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700828415250</updated>
+      <workItem from="1700828424172" duration="5279000" />
+      <workItem from="1700846520833" duration="3090000" />
+      <workItem from="1700908300583" duration="681000" />
+      <workItem from="1700923849365" duration="6393000" />
+      <workItem from="1700991840574" duration="12085000" />
+      <workItem from="1701075591020" duration="16559000" />
+      <workItem from="1701110254076" duration="2061000" />
+      <workItem from="1701160308392" duration="14920000" />
+      <workItem from="1701195343013" duration="2210000" />
+      <workItem from="1701246171521" duration="19029000" />
+      <workItem from="1701330420262" duration="778000" />
+      <workItem from="1701457778818" duration="1571000" />
+      <workItem from="1701528123740" duration="172000" />
+      <workItem from="1701528307673" duration="1791000" />
+      <workItem from="1701552925171" duration="2090000" />
+      <workItem from="1701594683780" duration="3430000" />
+      <workItem from="1702147420968" duration="1231000" />
+      <workItem from="1702202081578" duration="6000" />
+      <workItem from="1703145941285" duration="4692000" />
+      <workItem from="1703151335498" duration="525000" />
+      <workItem from="1703151875461" duration="19992000" />
+      <workItem from="1703191426650" duration="248000" />
+      <workItem from="1703233150681" duration="19727000" />
+      <workItem from="1703276879756" duration="11000" />
+      <workItem from="1703323598458" duration="30458000" />
+      <workItem from="1703402856995" duration="1135000" />
+      <workItem from="1703413916709" duration="99000" />
+      <workItem from="1703419514520" duration="10504000" />
+      <workItem from="1703485101495" duration="5734000" />
+      <workItem from="1703598777789" duration="1282000" />
+      <workItem from="1703601275601" duration="2868000" />
+      <workItem from="1703608149635" duration="811000" />
+      <workItem from="1703608978667" duration="3986000" />
+      <workItem from="1703621792736" duration="1731000" />
+      <workItem from="1703629073421" duration="55000" />
+      <workItem from="1703629598513" duration="28000" />
+      <workItem from="1703677475437" duration="785000" />
+      <workItem from="1703678276778" duration="514000" />
+      <workItem from="1703678805504" duration="104000" />
+      <workItem from="1703678918327" duration="39000" />
+      <workItem from="1703678965241" duration="167000" />
+      <workItem from="1703679141814" duration="225000" />
+      <workItem from="1703679377655" duration="1689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/users/forms.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
